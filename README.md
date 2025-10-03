@@ -19,13 +19,6 @@ To demonstrate the practical application of these drivers, a complete temperatur
 The application logic, which I developed for the final project, resides in `main.c`. It integrates the ADC, LCD, and LM35 Sensor drivers to create a functional and automated environmental control system.
 
 ```c
-/*
-* ODC_AMIT_AVR.c
-*
-* Created: 9/29/2024 11:49:04 AM
-* Author: Ahmed Mohamed
-*/
-
 #include "main.h"
 #include <avr/io.h>
 #include <util/delay.h>
